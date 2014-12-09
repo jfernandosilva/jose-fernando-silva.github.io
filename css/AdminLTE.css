@@ -16,7 +16,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
-  background: #f9f9f9;
+  background: #F3F3F3;
 }
 a {
   color: #3c8dbc;
@@ -114,7 +114,7 @@ body.fixed .wrapper {
   padding: 20px 15px;
   background: #f3f3f3;
   overflow: auto;
-  /*padding-top: 100px;*/
+  padding-top: 110px;
 }
 /* Utility */
 /* H1 - H6 font */
@@ -1241,7 +1241,7 @@ body > .header .logo .icon {
 }
 .progress-bar-aqua,
 .progress-bar-info {
-  background-color: rgba(60,141,188,0.8);
+  background-color: rgba(80,161,208,0.7);
 }
 .progress-striped .progress-bar-aqua,
 .progress-striped .progress-bar-info {
@@ -1387,7 +1387,7 @@ body > .header .logo .icon {
   top: 15px;
   background: #ffffff;
   border-top: 2px solid #c1c1c1;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -3575,54 +3575,46 @@ fieldset[disabled] .btn-vk.active {
   text-shadow: 1px 1px 2px rgba(200,200,200,0.5);
 }
 
-/*
-
-@media screen and (min-width: 368px) and (max-width: 560px) {
-  .skin-blue .right-side > .content-header {
-    margin-top: 100px;
-  }
-  .content {
-    padding-top: 200px;
-  }
-  .sidebar {
-    margin-top: 100px;
-  }
+.contacto {
+  font-size: 1.5em;
+  color: #3A87AD;
 }
-
-@media screen and (min-width: 561px) and (max-width: 767px){
-  .content {
-    padding-top: 140px;
-  }
-  .sidebar {
-    margin-top: 50px;
-  }
+.contacto span {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #5A5A5A;
 }
-
-@media screen and (min-width: 768px) and (max-width: 992px){
-  .content {
-    padding-top: 125px;
-  }
-  .sidebar {
-    margin-top: 50px;
-  }
-}
-
-@media screen and (min-width: 993px) and (max-width: 1170px){
-  .sidebar {
-    margin-top: 0px;
-  }
-}
-*/
 
 @media screen and (max-width: 367px) {
 
   .skin-blue .right-side > .content-header {
     margin-top: 100px;
   }
-  /*.content {*/
-  /*  padding-top: 210px;*/
-  /*}*/
+  .content {
+    padding-top: 215px;
+  }
   .sidebar {
     margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 560px) {
+  .skin-blue .right-side > .content-header {
+    margin-top: 100px;
+  }
+  .content {
+    padding-top: 190px;
+  }
+  .sidebar {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 561px) and (max-width: 767px) {
+  .content {
+    padding-top: 140px;
+  }
+  .sidebar {
+    margin-top: 50px;
   }
 }
